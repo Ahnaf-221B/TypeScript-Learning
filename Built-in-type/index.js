@@ -1,0 +1,12 @@
+var userId;
+var firstName;
+var lastName;
+var fullName;
+var isActive;
+userId = 101;
+firstName = "GeekyShows";
+lastName = "Technologies";
+fullName = firstName.concat(" " + lastName);
+isActive = true;
+console.log("".concat(userId, " ").concat(fullName, " ").concat(isActive));
+console.log(fullName.split(' '));
